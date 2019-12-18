@@ -208,7 +208,7 @@ metadata {
 
         
 
-        valueTile("tempName1", "device.name1",  width: 1, height: 1, decoration: "flat") {
+        valueTile("th-test", "device.name1",  width: 1, height: 1, decoration: "flat") {
 
 			state "default", label:'${currentValue}', defaultState: true
 
